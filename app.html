@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="App.css">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <div class="logo">
+         <i class="fa-solid fa-sun"></i>
+         <h2>Weather Now</h2>
+         </div>
+       <button class="unit-btn">
+            <i class="fa-solid fa-gear"></i>
+            Units
+        </button>
+          </header>
+
+          <section class="hero">
+
+        <h1>How's the sky looking today?</h1>
+
+        <div class="search-box">
+
+            <input
+            type="text"
+            placeholder="Search for a place..."
+            id="searchInput">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+    </section>
+
+<main>
+        <section class="left">
+        <div class="weather-card">
+            <div class="location">
+                    <div>
+
+                        <h2 id="city">
+                            Bengaluru, India
+                        </h2>
+
+                        <p id="date">
+                            Monday, 1 August 2026
+                        </p>
+
+                    </div>
+                 <img
+                    id="weatherIcon"
+                    src="images/sun.png"
+                    alt="Weather">
+            </div>
+            <h1 id="temp">29°</h1>
+        </div>
+ 
+
+<div class="details">
+    <div class="card">
+        <h3>FeelsLike</h3>
+        <p id=feelsLike>30°</p>
+    </div>
+    <div class="card">
+        <h3>Humidity</h3>
+        <p id="Humidity">65%</p>
+    </div>
+    <div class="card">
+        <h3>Wind</h3>
+        <p id="Wind">12km/hr</p>
+    </div>
+    <div class="card">
+        <h3>pressure</h3>
+        <p id="pressure">1012nhp</p>
+    </div>
+</div>
+
+<div class="forecast">
+    <h3>7-days forcast</h3>
+    <div class="forecast-cards">
+        <div class="day-card">
+            <h4>Mon</h4>
+            <p>☀️</p>
+            <p>30° / 24°</p>
+        </div>
+        <div class="day-card">
+            <h4>Tue</h4>
+            <p>🌤️</p>
+            <p>28° / 23°</p>
+        </div>
+        <div class="day-card">
+            <h4>Wed</h4>
+           <p>☁️</p>
+            <p>34° / 35°</p>
+        </div>
+        <div class="day-card">
+            <h4>Thur</h4>
+            <p>🌧️</p>
+            <p>38° / 43°</p>
+        </div>
+         <div class="day-card">
+            <h4>Fri</h4>
+            <p>🌧️</p>
+            <p>34° / 53°</p>
+        </div>
+         <div class="day-card">
+            <h4>Sat</h4>
+           <p>🌙</p>
+            <p>39° / 63°</p>
+        </div>
+         <div class="day-card">
+            <h4>Sun</h4>
+            <p>🌧️</p>
+            <p>37° / 23°</p>
+        </div>
+    </div>
+</div>
+   </section>
+
+   <aside class="right">
+    <div class="hourly">
+    <div class="hour-header">
+    <h3>Hourly Forecast</h3>
+    <select>
+        <option>Today</option>
+        <option>Tomorrow</option>
+    </select>
+    </div>
+    <div class="hour-card">
+        <span>3pm</span>
+        <span>☀️</span>
+        <span>30°</span>
+    </div>
+    <div class="hour-card">
+        <span>4pm</span>
+        <span>🌤️</span>
+        <span>29°</span>
+    </div>
+   <div class="hour-card">
+    <span>5pm</span>
+    <span>☁️</span>
+    <span>19°</span>
+   </div>
+   <div class="hour-card">
+    <span>6pm</span>
+    <span>🌧️</span>
+    <span>34°</span>
+   </div>
+   <div class="hour-card">
+    <span>7pm</span>
+    <span>🌧️</span>
+    <span>26°</span>
+   </div>
+   <div class="hour-card">
+    <span>8 PM</span>
+    <span>🌙</span>
+    <span>25°</span>
+    </div>
+    </div>
+    </aside>
+</main>
+  
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>
