@@ -21,8 +21,7 @@ A responsive weather application built using HTML, CSS, and JavaScript that help
 3. Open `index.html` in your browser.
 4. Search for a city to view its weather.
 
- 📸 Screenshots
-Add screenshots of your application here.
+
 
 🔮 Future Improvements
 - Display a multi-day weather forecast
